@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "spark-utilities",
+	"version": "${version}",
+	"name": "Spark Utilities",
+	"description": "A set of mechanics, crafting and resource changes for Spark Modpack.",
+	"authors": [
+		"amatsagu"
+	],
+	"contact": {
+        "homepage": "https://github.com/amatsagu",
+		"source": "https://github.com/amatsagu/spark-utilities-mod"
+    },
+    "license": "BSD 3-Clause",
+	"icon": "assets/spark-utilities/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"amatsagu.spark_utilities.MainInitializer"
+		],
+		"client": [
+			"amatsagu.spark_utilities.ClientInitializer"
+		]
+	},
+	"assets": "assets",
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.3",
+		"java": ">=21"
+	}
+}
